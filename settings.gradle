@@ -3,10 +3,7 @@ pluginManagement {
         google()
         mavenLocal()
         mavenCentral()
-        maven {
-            url "https://www.jitpack.io"
-            allowInsecureProtocol = true
-        }
+        maven { url 'https://jitpack.io' }
         maven {
             url 'https://maven.aliyun.com/repository/public/'
             allowInsecureProtocol = true
@@ -35,10 +32,7 @@ dependencyResolutionManagement {
         google()
         mavenLocal()
         mavenCentral()
-        maven {
-            url "https://www.jitpack.io"
-            allowInsecureProtocol = true
-        }
+        maven { url 'https://jitpack.io' }
         maven {
             url 'https://maven.aliyun.com/repository/public/'
             allowInsecureProtocol = true
